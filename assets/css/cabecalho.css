@@ -2,16 +2,17 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 20px;
+  padding: 0 2rem;
   background-color: #f9f9f9;
+  border-bottom:solid rgba(219, 216, 216, 0.548) 1px;
 }
 .cabecalho__menu{
   list-style: none;
   display: flex;
 }
 
-.cabecalho__menu__option{
-  
+.cabecalho__menu__option:last-child a{
+  margin-right: 0;
 }
 .cabecalho__menu__option a{
   color: #808080;
@@ -21,4 +22,5 @@
 
 .cabecalho__menu__option a:hover{
   color: black;
+  font-weight: bold;
 }
