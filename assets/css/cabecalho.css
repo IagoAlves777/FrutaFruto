@@ -1,0 +1,24 @@
+.cabecalho{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  background-color: #f9f9f9;
+}
+.cabecalho__menu{
+  list-style: none;
+  display: flex;
+}
+
+.cabecalho__menu__option{
+  
+}
+.cabecalho__menu__option a{
+  color: #808080;
+  text-decoration: none;
+  margin-right: 1.25rem;
+}
+
+.cabecalho__menu__option a:hover{
+  color: black;
+}
